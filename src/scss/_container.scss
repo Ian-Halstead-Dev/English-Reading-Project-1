@@ -1,0 +1,18 @@
+.container {
+  max-width: 55vw;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 4rem;
+}
+
+.container--blog {
+  background-color: #ddd;
+  min-height: 20vh;
+  padding: 3rem;
+  border: 2px solid darken($pale-silver, 35%);
+  margin-bottom: 1rem;
+
+  p {
+    line-height: 2rem;
+  }
+}

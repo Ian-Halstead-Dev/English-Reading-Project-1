@@ -1,0 +1,64 @@
+h2 {
+  font-size: 4rem;
+  text-align: center;
+  display: block;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-size: 1.6rem;
+  padding-bottom: 1.5rem;
+}
+
+p {
+  text-indent: 3rem;
+  font-size: 1.6rem;
+  font-weight: 200;
+  letter-spacing: 1.2px;
+}
+
+a {
+  text-decoration: none;
+
+  .card {
+    color: darken($pale-silver, 100%);
+    margin-top: 2rem;
+    border: 2px solid darken($pale-silver, 35%);
+    padding: 4.5rem 5rem;
+    border-radius: 1.5rem;
+    transition: all .1s linear;
+    background-color: #ddd;
+
+    &:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+
+      .CTA {
+        text-decoration: underline;
+      }
+    }
+
+    h1 {
+      font-size: 3rem;
+      padding-bottom: 1.5rem;
+      position: relative;
+      display: inline-block;
+
+      &::before {
+        transition: all .2s linear;
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 1.5rem;
+        width: 100%;
+        background-color: darken($pale-silver, 55%);
+        height: 3px;
+        opacity: 0;
+      }
+    }
+
+    .CTA {
+      color: $persian-indigo;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+@import './vars';
+@import "./resets";
+@import "./container";
+@import "./header";
+@import "./main-content";
+@import './nav';
+
+body {
+  background-color: $pale-silver;
+}
